@@ -6,7 +6,15 @@ git config --list
 
 		Git 仓库(本地库、远程库)
 git init	--初始化版本库
-git add
+git add		--添加新增文件/内容到暂存区域
 git commit	--是将本地修改过的文件提交到本地库中。
 git push	--是将本地库中的最新信息发送给远程库。
 git status	--查看仓库状态
+
+
+git reset HEAD demo1.txt	--版本回退
+git checkout -- demo1.txt	--请出暂存内容,回滚完成
+
+git log		--查看提交日志，找到提交ID
+git reset --hard 5eeb44d10cf6d68eedc5f582b24a3bac9402f146 
+git仓库回滚到版本ID为 git log查找到的某个版本,这种操作会将所有提交到本地库的内容都回滚.
