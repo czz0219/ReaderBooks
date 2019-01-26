@@ -18,3 +18,6 @@ git checkout -- demo1.txt	--请出暂存内容,回滚完成
 git log		--查看提交日志，找到提交ID
 git reset --hard 5eeb44d10cf6d68eedc5f582b24a3bac9402f146 
 git仓库回滚到版本ID为 git log查找到的某个版本,这种操作会将所有提交到本地库的内容都回滚.
+
+清空本地以及git本地仓库的文件
+git rm filename
