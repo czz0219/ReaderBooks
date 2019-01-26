@@ -1,0 +1,12 @@
+配置用户名、邮箱
+git config --global user.name "czz"
+git config --global user.email "freedom_czz@outlook.com"
+列出所有配置
+git config --list
+
+		Git 仓库(本地库、远程库)
+git init	--初始化版本库
+git add
+git commit	--是将本地修改过的文件提交到本地库中。
+git push	--是将本地库中的最新信息发送给远程库。
+git status	--查看仓库状态
