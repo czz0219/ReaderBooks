@@ -65,3 +65,5 @@ git push origin v1.0.0	--提交到远程仓库
 
 解除git init 控制 即，删库
 rm -rf  .git/
+
+git pull origin master:master
