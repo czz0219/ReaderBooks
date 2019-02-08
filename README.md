@@ -40,7 +40,7 @@ git commit -m "clean rm2"	--提交更改
 	(3)git add README.md					--添加资源到本地目录树上
 	(4)git commit -m "first commit"			--对本地仓库的更改提交生效
 	(5)git remote add origin https://github.com/czz0219/ReaderBooks.git --关联远程和本地仓库
-	(6)git push -u origin master			--将本地资源的更新提交到远程仓库 master分支
+	(6)git push -u origin master -f			--强制将本地资源的更新提交到远程仓库 master分支
 											--以后不必指定分支 git push 默认master分支
 	常常使用  1、3、4、6连提交资源
 
